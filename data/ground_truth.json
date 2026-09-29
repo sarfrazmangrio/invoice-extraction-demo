@@ -1,0 +1,1096 @@
+{
+  "INV-01.pdf": {
+    "file": "INV-01.pdf",
+    "vendor_key": "A",
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0412",
+    "invoice_date": "2026-02-17",
+    "due_date": "2026-03-19",
+    "currency": "USD",
+    "customer_name": "Brightside Dental Group",
+    "line_items": [
+      {
+        "description": "File folders, letter, 100",
+        "quantity": 12,
+        "unit_price": 15.6,
+        "amount": 187.2
+      },
+      {
+        "description": "Highlighters, 6 colors",
+        "quantity": 12,
+        "unit_price": 6.8,
+        "amount": 81.6
+      },
+      {
+        "description": "Whiteboard markers, 8 pack",
+        "quantity": 4,
+        "unit_price": 11.4,
+        "amount": 45.6
+      },
+      {
+        "description": "Envelopes #10, box of 500",
+        "quantity": 1,
+        "unit_price": 27.9,
+        "amount": 27.9
+      },
+      {
+        "description": "Desk fan, 12 in",
+        "quantity": 2,
+        "unit_price": 29.99,
+        "amount": 59.98
+      }
+    ],
+    "subtotal": 402.28,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 33.19,
+    "total": 435.47,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-02.pdf": {
+    "file": "INV-02.pdf",
+    "vendor_key": "B",
+    "vendor_name": "Kestrel Packaging Ltd.",
+    "invoice_number": "KPL/INV/1187",
+    "invoice_date": "2026-02-13",
+    "due_date": "2026-02-28",
+    "currency": "PKR",
+    "customer_name": "Meridian Retail (Pvt.) Ltd.",
+    "line_items": [
+      {
+        "description": "Stretch film 18 in x 1500 ft",
+        "quantity": 12,
+        "unit_price": 1950.0,
+        "amount": 23400.0
+      },
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 250,
+        "unit_price": 310.0,
+        "amount": 77500.0
+      },
+      {
+        "description": "Printed mailer bags 12x16, 100",
+        "quantity": 12,
+        "unit_price": 2300.0,
+        "amount": 27600.0
+      },
+      {
+        "description": "Corrugated box 12x10x8 in, 3-ply",
+        "quantity": 200,
+        "unit_price": 145.0,
+        "amount": 29000.0
+      }
+    ],
+    "subtotal": 157500.0,
+    "tax_rate_percent": 18.0,
+    "tax_amount": 28350.0,
+    "total": 185850.0,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-03.pdf": {
+    "file": "INV-03.pdf",
+    "vendor_key": "A",
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0413",
+    "invoice_date": "2026-02-24",
+    "due_date": "2026-03-26",
+    "currency": "USD",
+    "customer_name": "Brightside Dental Group",
+    "line_items": [
+      {
+        "description": "Wireless keyboard",
+        "quantity": 5,
+        "unit_price": 49.0,
+        "amount": 245.0
+      },
+      {
+        "description": "Paper shredder, cross-cut",
+        "quantity": 1,
+        "unit_price": 149.0,
+        "amount": 149.0
+      },
+      {
+        "description": "Laminating pouches, 100",
+        "quantity": 5,
+        "unit_price": 21.3,
+        "amount": 106.5
+      },
+      {
+        "description": "Tissue boxes, 12 pack",
+        "quantity": 5,
+        "unit_price": 18.6,
+        "amount": 93.0
+      },
+      {
+        "description": "Trash bags 30 gal, 50",
+        "quantity": 5,
+        "unit_price": 13.45,
+        "amount": 67.25
+      },
+      {
+        "description": "Label maker tape, 2 pack",
+        "quantity": 3,
+        "unit_price": 16.8,
+        "amount": 50.4
+      },
+      {
+        "description": "Index dividers, 8 tab",
+        "quantity": 5,
+        "unit_price": 5.1,
+        "amount": 25.5
+      },
+      {
+        "description": "Correction tape, 10 pack",
+        "quantity": 5,
+        "unit_price": 8.6,
+        "amount": 43.0
+      },
+      {
+        "description": "Highlighters, 6 colors",
+        "quantity": 1,
+        "unit_price": 6.8,
+        "amount": 6.8
+      },
+      {
+        "description": "Stapler, heavy duty",
+        "quantity": 2,
+        "unit_price": 24.5,
+        "amount": 49.0
+      },
+      {
+        "description": "USB-C hub, 7-port",
+        "quantity": 2,
+        "unit_price": 42.0,
+        "amount": 84.0
+      },
+      {
+        "description": "Ring binders 2 in, 4 pack",
+        "quantity": 1,
+        "unit_price": 22.4,
+        "amount": 22.4
+      },
+      {
+        "description": "Binder clips, assorted 60",
+        "quantity": 1,
+        "unit_price": 7.25,
+        "amount": 7.25
+      },
+      {
+        "description": "Printing calculator",
+        "quantity": 5,
+        "unit_price": 64.95,
+        "amount": 324.75
+      },
+      {
+        "description": "Ergonomic wireless mouse",
+        "quantity": 5,
+        "unit_price": 34.99,
+        "amount": 174.95
+      },
+      {
+        "description": "LED desk lamp",
+        "quantity": 2,
+        "unit_price": 45.0,
+        "amount": 90.0
+      },
+      {
+        "description": "Envelopes #10, box of 500",
+        "quantity": 5,
+        "unit_price": 27.9,
+        "amount": 139.5
+      },
+      {
+        "description": "First aid kit, office",
+        "quantity": 2,
+        "unit_price": 36.75,
+        "amount": 73.5
+      },
+      {
+        "description": "Clipboards, 5 pack",
+        "quantity": 1,
+        "unit_price": 14.25,
+        "amount": 14.25
+      },
+      {
+        "description": "Hand sanitizer, 1 L",
+        "quantity": 5,
+        "unit_price": 7.9,
+        "amount": 39.5
+      },
+      {
+        "description": "Desk fan, 12 in",
+        "quantity": 5,
+        "unit_price": 29.99,
+        "amount": 149.95
+      },
+      {
+        "description": "Cable ties, 100 pack",
+        "quantity": 3,
+        "unit_price": 4.99,
+        "amount": 14.97
+      },
+      {
+        "description": "Sticky notes 3x3, yellow, 12 pack",
+        "quantity": 5,
+        "unit_price": 9.75,
+        "amount": 48.75
+      },
+      {
+        "description": "A4 copy paper, 500 sheets",
+        "quantity": 3,
+        "unit_price": 6.49,
+        "amount": 19.47
+      },
+      {
+        "description": "Desk organizer, mesh",
+        "quantity": 5,
+        "unit_price": 18.2,
+        "amount": 91.0
+      },
+      {
+        "description": "A3 printer paper, 250 sheets",
+        "quantity": 5,
+        "unit_price": 19.99,
+        "amount": 99.95
+      },
+      {
+        "description": "Ballpoint pens, box of 50",
+        "quantity": 5,
+        "unit_price": 12.99,
+        "amount": 64.95
+      },
+      {
+        "description": "File folders, letter, 100",
+        "quantity": 2,
+        "unit_price": 15.6,
+        "amount": 31.2
+      },
+      {
+        "description": "Coffee filters, 500",
+        "quantity": 3,
+        "unit_price": 9.3,
+        "amount": 27.9
+      },
+      {
+        "description": "Black toner cartridge 26A",
+        "quantity": 3,
+        "unit_price": 89.0,
+        "amount": 267.0
+      }
+    ],
+    "subtotal": 2620.69,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 216.21,
+    "total": 2836.9,
+    "case": "multipage",
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-04.pdf": {
+    "file": "INV-04.pdf",
+    "vendor_key": "A",
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0414",
+    "invoice_date": "2026-03-03",
+    "due_date": "2026-04-02",
+    "currency": "USD",
+    "customer_name": "Summit Legal Partners",
+    "line_items": [
+      {
+        "description": "Stapler, heavy duty",
+        "quantity": 12,
+        "unit_price": 24.5,
+        "amount": 294.0
+      },
+      {
+        "description": "Sticky notes 3x3, yellow, 12 pack",
+        "quantity": 6,
+        "unit_price": 9.75,
+        "amount": 58.5
+      },
+      {
+        "description": "Highlighters, 6 colors",
+        "quantity": 4,
+        "unit_price": 6.8,
+        "amount": 27.2
+      },
+      {
+        "description": "Hand sanitizer, 1 L",
+        "quantity": 5,
+        "unit_price": 7.9,
+        "amount": 39.5
+      },
+      {
+        "description": "Printing calculator",
+        "quantity": 12,
+        "unit_price": 64.95,
+        "amount": 779.4
+      },
+      {
+        "description": "Envelopes #10, box of 500",
+        "quantity": 12,
+        "unit_price": 27.9,
+        "amount": 334.8
+      }
+    ],
+    "subtotal": 1553.4,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 128.16,
+    "total": 1681.56,
+    "case": "subtotal_misprint",
+    "scanned": false,
+    "expected_issues": [
+      "lines_sum_to_subtotal"
+    ]
+  },
+  "INV-05.pdf": {
+    "file": "INV-05.pdf",
+    "vendor_key": "C",
+    "vendor_name": "Harbor Line Freight",
+    "invoice_number": "HLF-88213",
+    "invoice_date": "2026-03-05",
+    "due_date": "2026-04-04",
+    "currency": "USD",
+    "customer_name": "Greenleaf Pharmacy",
+    "line_items": [
+      {
+        "description": "Inspection exam fee",
+        "quantity": 1,
+        "unit_price": 260.0,
+        "amount": 260.0
+      },
+      {
+        "description": "Detention time (hours)",
+        "quantity": 4.5,
+        "unit_price": 85.0,
+        "amount": 382.5
+      },
+      {
+        "description": "Pallet storage (pallet-weeks)",
+        "quantity": 6,
+        "unit_price": 14.5,
+        "amount": 87.0
+      },
+      {
+        "description": "Fuel surcharge",
+        "quantity": 1,
+        "unit_price": 92.4,
+        "amount": 92.4
+      },
+      {
+        "description": "Container drayage, 40 ft, port to DC",
+        "quantity": 1,
+        "unit_price": 685.0,
+        "amount": 685.0
+      }
+    ],
+    "subtotal": 1506.9,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 1506.9,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-06.pdf": {
+    "file": "INV-06.pdf",
+    "vendor_key": "B",
+    "vendor_name": "Kestrel Packaging Ltd.",
+    "invoice_number": "KPL/INV/1188",
+    "invoice_date": "2026-03-28",
+    "due_date": "2026-03-14",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 200,
+        "unit_price": 310.0,
+        "amount": 62000.0
+      },
+      {
+        "description": "Printed mailer bags 12x16, 100",
+        "quantity": 8,
+        "unit_price": 2300.0,
+        "amount": 18400.0
+      },
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 4,
+        "unit_price": 2150.0,
+        "amount": 8600.0
+      }
+    ],
+    "subtotal": 89000.0,
+    "tax_rate_percent": 18.0,
+    "tax_amount": 16020.0,
+    "total": 105020.0,
+    "case": "due_before_invoice",
+    "scanned": false,
+    "expected_issues": [
+      "due_before_invoice"
+    ]
+  },
+  "INV-07.pdf": {
+    "file": "INV-07.pdf",
+    "vendor_key": "D",
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0031",
+    "invoice_date": "2026-03-09",
+    "due_date": "2026-03-24",
+    "currency": "PKR",
+    "customer_name": "Atlas Garments",
+    "line_items": [
+      {
+        "description": "Envelope printing, 500 pcs",
+        "quantity": 2,
+        "unit_price": 4750.0,
+        "amount": 9500
+      },
+      {
+        "description": "Business cards, 350 gsm, 500 pcs",
+        "quantity": 3,
+        "unit_price": 3500.0,
+        "amount": 10500
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 2,
+        "unit_price": 4200.0,
+        "amount": 8400
+      }
+    ],
+    "subtotal": 28400,
+    "tax_rate_percent": 16.0,
+    "tax_amount": 4544.0,
+    "total": 32944.0,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-08.pdf": {
+    "file": "INV-08.pdf",
+    "vendor_key": "C",
+    "vendor_name": "Harbor Line Freight",
+    "invoice_number": "HLF-88220",
+    "invoice_date": "2026-03-12",
+    "due_date": "2026-04-11",
+    "currency": "USD",
+    "customer_name": "Nova Home Electronics",
+    "line_items": [
+      {
+        "description": "Pallet storage (pallet-weeks)",
+        "quantity": 12,
+        "unit_price": 14.5,
+        "amount": 174.0
+      },
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      },
+      {
+        "description": "Inspection exam fee",
+        "quantity": 1,
+        "unit_price": 260.0,
+        "amount": 260.0
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      }
+    ],
+    "subtotal": 647.0,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 647.0,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-09.pdf": {
+    "file": "INV-09.pdf",
+    "vendor_key": "B",
+    "vendor_name": "Kestrel Packaging Ltd.",
+    "invoice_number": "KPL/INV/1189",
+    "invoice_date": "2026-03-16",
+    "due_date": "2026-03-31",
+    "currency": "PKR",
+    "customer_name": "Meridian Retail (Pvt.) Ltd.",
+    "line_items": [
+      {
+        "description": "Corrugated box 12x10x8 in, 3-ply",
+        "quantity": 1200,
+        "unit_price": 145.0,
+        "amount": 147000.0
+      },
+      {
+        "description": "Printed mailer bags 12x16, 100",
+        "quantity": 4,
+        "unit_price": 2300.0,
+        "amount": 9200.0
+      },
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 4,
+        "unit_price": 2150.0,
+        "amount": 8600.0
+      },
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 50,
+        "unit_price": 310.0,
+        "amount": 15500.0
+      },
+      {
+        "description": "Stretch film 18 in x 1500 ft",
+        "quantity": 10,
+        "unit_price": 1950.0,
+        "amount": 19500.0
+      }
+    ],
+    "subtotal": 199800.0,
+    "tax_rate_percent": 18.0,
+    "tax_amount": 35964.0,
+    "total": 235764.0,
+    "case": "line_math_error",
+    "scanned": false,
+    "expected_issues": [
+      "line_math"
+    ]
+  },
+  "INV-10.pdf": {
+    "file": "INV-10.pdf",
+    "vendor_key": "B",
+    "vendor_name": "Kestrel Packaging Ltd.",
+    "invoice_number": "KPL/INV/1190",
+    "invoice_date": "2026-03-18",
+    "due_date": "2026-04-17",
+    "currency": "PKR",
+    "customer_name": "Atlas Garments",
+    "line_items": [
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 2,
+        "unit_price": 2150.0,
+        "amount": 4300.0
+      },
+      {
+        "description": "Stretch film 18 in x 1500 ft",
+        "quantity": 5,
+        "unit_price": 1950.0,
+        "amount": 9750.0
+      },
+      {
+        "description": "Kraft paper roll, 36 in",
+        "quantity": 12,
+        "unit_price": 3200.0,
+        "amount": 38400.0
+      },
+      {
+        "description": "Bubble wrap roll 1 m x 50 m",
+        "quantity": 10,
+        "unit_price": 2450.0,
+        "amount": 24500.0
+      }
+    ],
+    "subtotal": 76950.0,
+    "tax_rate_percent": 18.0,
+    "tax_amount": 13851.0,
+    "total": 90801.0,
+    "case": "scanned",
+    "scanned": true,
+    "expected_issues": []
+  },
+  "INV-11.pdf": {
+    "file": "INV-11.pdf",
+    "vendor_key": "D",
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0032",
+    "invoice_date": "2026-03-20",
+    "due_date": "2026-04-04",
+    "currency": "PKR",
+    "customer_name": "Atlas Garments",
+    "line_items": [
+      {
+        "description": "Envelope printing, 500 pcs",
+        "quantity": 1,
+        "unit_price": 4750.0,
+        "amount": 4750
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 3,
+        "unit_price": 4200.0,
+        "amount": 12600
+      },
+      {
+        "description": "A2 posters, glossy, 50 pcs",
+        "quantity": 1,
+        "unit_price": 5250.0,
+        "amount": 5250
+      },
+      {
+        "description": "A5 flyers, 130 gsm, 2,000 pcs",
+        "quantity": 2,
+        "unit_price": 14000.0,
+        "amount": 28000
+      }
+    ],
+    "subtotal": 50600,
+    "tax_rate_percent": 16.0,
+    "tax_amount": 8096.0,
+    "total": 58696.0,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-12.pdf": {
+    "file": "INV-12.pdf",
+    "vendor_key": "C",
+    "vendor_name": "Harbor Line Freight",
+    "invoice_number": null,
+    "invoice_date": "2026-03-23",
+    "due_date": "2026-04-22",
+    "currency": "USD",
+    "customer_name": "Pacific Tile Imports",
+    "line_items": [
+      {
+        "description": "Detention time (hours)",
+        "quantity": 2,
+        "unit_price": 85.0,
+        "amount": 170.0
+      },
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 4.5,
+        "unit_price": 38.0,
+        "amount": 171.0
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      }
+    ],
+    "subtotal": 516.0,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 516.0,
+    "case": "missing_invoice_number",
+    "scanned": false,
+    "expected_issues": [
+      "missing_required_field"
+    ]
+  },
+  "INV-13.pdf": {
+    "file": "INV-13.pdf",
+    "vendor_key": "A",
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0415",
+    "invoice_date": "2026-03-25",
+    "due_date": "2026-04-24",
+    "currency": "USD",
+    "customer_name": "Summit Legal Partners",
+    "line_items": [
+      {
+        "description": "Desk fan, 12 in",
+        "quantity": 10,
+        "unit_price": 29.99,
+        "amount": 299.9
+      },
+      {
+        "description": "Label maker tape, 2 pack",
+        "quantity": 1,
+        "unit_price": 16.8,
+        "amount": 16.8
+      },
+      {
+        "description": "Wireless keyboard",
+        "quantity": 2,
+        "unit_price": 49.0,
+        "amount": 98.0
+      },
+      {
+        "description": "Sticky notes 3x3, yellow, 12 pack",
+        "quantity": 10,
+        "unit_price": 9.75,
+        "amount": 97.5
+      },
+      {
+        "description": "Correction tape, 10 pack",
+        "quantity": 2,
+        "unit_price": 8.6,
+        "amount": 17.2
+      },
+      {
+        "description": "Tissue boxes, 12 pack",
+        "quantity": 1,
+        "unit_price": 18.6,
+        "amount": 18.6
+      },
+      {
+        "description": "Whiteboard markers, 8 pack",
+        "quantity": 6,
+        "unit_price": 11.4,
+        "amount": 68.4
+      }
+    ],
+    "subtotal": 616.4,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 50.85,
+    "total": 667.25,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-14.pdf": {
+    "file": "INV-14.pdf",
+    "vendor_key": "C",
+    "vendor_name": "Harbor Line Freight",
+    "invoice_number": "HLF-88234",
+    "invoice_date": "2026-03-27",
+    "due_date": "2026-04-26",
+    "currency": "USD",
+    "customer_name": "Nova Home Electronics",
+    "line_items": [
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 4.5,
+        "unit_price": 38.0,
+        "amount": 171.0
+      },
+      {
+        "description": "Detention time (hours)",
+        "quantity": 12,
+        "unit_price": 85.0,
+        "amount": 1020.0
+      },
+      {
+        "description": "Container drayage, 40 ft, port to DC",
+        "quantity": 1,
+        "unit_price": 685.0,
+        "amount": 685.0
+      },
+      {
+        "description": "Inspection exam fee",
+        "quantity": 1,
+        "unit_price": 260.0,
+        "amount": 260.0
+      },
+      {
+        "description": "Pallet storage (pallet-weeks)",
+        "quantity": 6,
+        "unit_price": 14.5,
+        "amount": 87.0
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      }
+    ],
+    "subtotal": 2398.0,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 2398.0,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-15.pdf": {
+    "file": "INV-15.pdf",
+    "vendor_key": "D",
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0033",
+    "invoice_date": "2026-03-30",
+    "due_date": "2026-04-14",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Envelope printing, 500 pcs",
+        "quantity": 1,
+        "unit_price": 4750.0,
+        "amount": 4750
+      },
+      {
+        "description": "Letterheads, 100 gsm, 1,000 pcs",
+        "quantity": 1,
+        "unit_price": 7500.0,
+        "amount": 7500
+      },
+      {
+        "description": "Tri-fold brochures, 1,000 pcs",
+        "quantity": 3,
+        "unit_price": 18500.0,
+        "amount": 55500
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 2,
+        "unit_price": 4200.0,
+        "amount": 8400
+      },
+      {
+        "description": "A5 flyers, 130 gsm, 2,000 pcs",
+        "quantity": 3,
+        "unit_price": 14000.0,
+        "amount": 42000
+      }
+    ],
+    "subtotal": 118150,
+    "tax_rate_percent": 16.0,
+    "tax_amount": 18904.0,
+    "total": 137054.0,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-16.pdf": {
+    "file": "INV-16.pdf",
+    "vendor_key": "D",
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0034",
+    "invoice_date": "2026-04-02",
+    "due_date": "2026-04-17",
+    "currency": "PKR",
+    "customer_name": "Atlas Garments",
+    "line_items": [
+      {
+        "description": "Letterheads, 100 gsm, 1,000 pcs",
+        "quantity": 1,
+        "unit_price": 7500.0,
+        "amount": 7500
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 3,
+        "unit_price": 4200.0,
+        "amount": 12600
+      },
+      {
+        "description": "A2 posters, glossy, 50 pcs",
+        "quantity": 1,
+        "unit_price": 5250.0,
+        "amount": 5250
+      }
+    ],
+    "subtotal": 25350,
+    "tax_rate_percent": 16.0,
+    "tax_amount": 4056.0,
+    "total": 30406.0,
+    "case": "total_misprint",
+    "scanned": false,
+    "expected_issues": [
+      "total_equals_subtotal_plus_tax"
+    ]
+  },
+  "INV-17.pdf": {
+    "file": "INV-17.pdf",
+    "vendor_key": "A",
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0416",
+    "invoice_date": "2026-04-06",
+    "due_date": "2026-05-06",
+    "currency": "USD",
+    "customer_name": "Summit Legal Partners",
+    "line_items": [
+      {
+        "description": "Laminating pouches, 100",
+        "quantity": 4,
+        "unit_price": 21.3,
+        "amount": 85.2
+      },
+      {
+        "description": "Stapler, heavy duty",
+        "quantity": 12,
+        "unit_price": 24.5,
+        "amount": 294.0
+      },
+      {
+        "description": "Ballpoint pens, box of 50",
+        "quantity": 1,
+        "unit_price": 12.99,
+        "amount": 12.99
+      },
+      {
+        "description": "Hand sanitizer, 1 L",
+        "quantity": 3,
+        "unit_price": 7.9,
+        "amount": 23.7
+      }
+    ],
+    "subtotal": 415.89,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 34.31,
+    "total": 450.2,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-18.pdf": {
+    "file": "INV-18.pdf",
+    "vendor_key": "C",
+    "vendor_name": "Harbor Line Freight",
+    "invoice_number": "HLF-88241",
+    "invoice_date": "2026-04-08",
+    "due_date": "2026-05-08",
+    "currency": "USD",
+    "customer_name": "Greenleaf Pharmacy",
+    "line_items": [
+      {
+        "description": "Pallet storage (pallet-weeks)",
+        "quantity": 2,
+        "unit_price": 14.5,
+        "amount": 29.0
+      },
+      {
+        "description": "Detention time (hours)",
+        "quantity": 6.5,
+        "unit_price": 85.0,
+        "amount": 552.5
+      },
+      {
+        "description": "Fuel surcharge",
+        "quantity": 1,
+        "unit_price": 92.4,
+        "amount": 92.4
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      },
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 4.5,
+        "unit_price": 38.0,
+        "amount": 171.0
+      }
+    ],
+    "subtotal": 1019.9,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 1019.9,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  },
+  "INV-19.pdf": {
+    "file": "INV-19.pdf",
+    "vendor_key": "D",
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0033",
+    "invoice_date": "2026-03-30",
+    "due_date": "2026-04-14",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Envelope printing, 500 pcs",
+        "quantity": 1,
+        "unit_price": 4750.0,
+        "amount": 4750
+      },
+      {
+        "description": "Letterheads, 100 gsm, 1,000 pcs",
+        "quantity": 1,
+        "unit_price": 7500.0,
+        "amount": 7500
+      },
+      {
+        "description": "Tri-fold brochures, 1,000 pcs",
+        "quantity": 3,
+        "unit_price": 18500.0,
+        "amount": 55500
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 2,
+        "unit_price": 4200.0,
+        "amount": 8400
+      },
+      {
+        "description": "A5 flyers, 130 gsm, 2,000 pcs",
+        "quantity": 3,
+        "unit_price": 14000.0,
+        "amount": 42000
+      }
+    ],
+    "subtotal": 118150,
+    "tax_rate_percent": 16.0,
+    "tax_amount": 18904.0,
+    "total": 137054.0,
+    "case": "scanned_duplicate_of_15",
+    "scanned": true,
+    "expected_issues": [
+      "duplicate_invoice"
+    ]
+  },
+  "INV-20.pdf": {
+    "file": "INV-20.pdf",
+    "vendor_key": "B",
+    "vendor_name": "Kestrel Packaging Ltd.",
+    "invoice_number": "KPL/INV/1191",
+    "invoice_date": "2026-04-14",
+    "due_date": "2026-04-29",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 5,
+        "unit_price": 2150.0,
+        "amount": 10750.0
+      },
+      {
+        "description": "Air pillows, bag of 500",
+        "quantity": 4,
+        "unit_price": 1650.0,
+        "amount": 6600.0
+      },
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 200,
+        "unit_price": 310.0,
+        "amount": 62000.0
+      },
+      {
+        "description": "Edge protectors, 50",
+        "quantity": 8,
+        "unit_price": 1275.0,
+        "amount": 10200.0
+      },
+      {
+        "description": "Bubble wrap roll 1 m x 50 m",
+        "quantity": 8,
+        "unit_price": 2450.0,
+        "amount": 19600.0
+      },
+      {
+        "description": "Shipping labels 4x6, 500",
+        "quantity": 8,
+        "unit_price": 1420.0,
+        "amount": 11360.0
+      }
+    ],
+    "subtotal": 120510.0,
+    "tax_rate_percent": 18.0,
+    "tax_amount": 21691.8,
+    "total": 142201.8,
+    "case": null,
+    "scanned": false,
+    "expected_issues": []
+  }
+}
