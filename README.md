@@ -72,6 +72,8 @@ All companies, people and addresses are made up.
 
 You need Python 3.10 or newer and an Anthropic API key. These commands are for Windows PowerShell; on macOS or Linux use `python3` and `export ANTHROPIC_API_KEY=...`.
 
+No Git? Click **Code > Download ZIP** at the top of this page, extract it, and in PowerShell `cd` into the extracted folder that contains `README.md` (Windows may nest it: `invoice-extraction-demo-main\invoice-extraction-demo-main`). Then start from the `pip install` line.
+
 ```powershell
 git clone https://github.com/sarfrazmangrio/invoice-extraction-demo.git
 cd invoice-extraction-demo
@@ -80,12 +82,14 @@ python -m pip install -r requirements.txt
 # 1. Check the setup without calling the API (uses the known answers)
 python src\run.py --mock
 
-# 2. Real run. The key is set for this window only and never saved in the project.
+# 2. Real run into a new folder. The key is set for this window only and never saved in the project.
 $env:ANTHROPIC_API_KEY = "paste-your-key-here"
-python src\run.py
+python src\run.py --out my_run
 ```
 
-The real run writes to `output/`:
+`output/` holds the results of the run on 30 September 2026. Without `--out`, the run reuses the saved results in `output/extracted/`: it needs no API key, costs nothing, and rebuilds the workbook and report from them. With `--out my_run`, every invoice is extracted again; the 20 test invoices cost $0.091 on 30 September.
+
+Each run writes to its folder:
 
 - `invoices_extracted.xlsx`: the workbook described above
 - `evaluation.md`: accuracy, planted problems caught, cost and every mismatch
@@ -128,7 +132,7 @@ src/
 data/
   invoices/               # the 20 test PDFs
   ground_truth.json       # the true value of every field
-tests/test_pipeline.py    # 20 tests; no API key needed
+tests/test_pipeline.py    # 22 tests; no API key needed
 output/                   # results of the real run on 30 September 2026
 images/                   # the two images on this page
 ```

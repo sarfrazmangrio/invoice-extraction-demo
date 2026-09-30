@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -60,6 +61,19 @@ def main(argv: list[str] | None = None) -> dict:
     files = sorted(args.input.glob("*.pdf"))[: args.limit]
     if not files:
         sys.exit(f"No PDF files in {args.input}")
+    def needs_extracting(pdf: Path) -> bool:
+        saved = cache / f"{pdf.stem}.json"
+        if args.force or not saved.exists():
+            return True
+        try:
+            return not str(json.loads(saved.read_text(encoding="utf-8")).get("model", "")).startswith(args.model)
+        except (ValueError, OSError):
+            return True
+
+    to_extract = [f for f in files if needs_extracting(f)]
+    if not args.mock and to_extract and not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
+        sys.exit(f"{len(to_extract)} of {len(files)} files need extracting, but ANTHROPIC_API_KEY is not set.\n"
+                 'PowerShell: $env:ANTHROPIC_API_KEY = "your-key"    macOS/Linux: export ANTHROPIC_API_KEY=your-key')
 
     records, failures = [], []
     stats = {"model": extractor.model, "input_tokens": 0, "output_tokens": 0, "cost_usd": 0.0,
@@ -108,7 +122,9 @@ def main(argv: list[str] | None = None) -> dict:
     print(f"\n{len(records)} of {len(files)} extracted, {needs_review} need review, {len(issues)} issues")
     print(f"Excel: {xlsx}")
     if stats["cost_usd"] is not None and not args.mock:
-        print(f"Cost: ${stats['cost_usd']:.4f} ({stats['input_tokens']:,} input + {stats['output_tokens']:,} output tokens)")
+        reused = (f"; {stats['from_saved']} of {len(records)} reused from saved results, not billed again"
+                  if stats["from_saved"] else "")
+        print(f"Cost: ${stats['cost_usd']:.4f} ({stats['input_tokens']:,} input + {stats['output_tokens']:,} output tokens{reused})")
 
     result = None
     known = [r for r in records if truth and r["file"] in truth]

@@ -155,6 +155,31 @@ def test_mock_run_end_to_end(tmp_path):
     assert statuses.count("Needs review") == 6
 
 
+def test_missing_key_stops_before_any_call(tmp_path, monkeypatch):
+    import run
+
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("ANTHROPIC_AUTH_TOKEN", raising=False)
+    with pytest.raises(SystemExit) as stop:
+        run.main(["--out", str(tmp_path), "--limit", "2"])
+    assert "ANTHROPIC_API_KEY is not set" in str(stop.value)
+
+
+def test_saved_results_of_the_real_run_reproduce_its_scores(tmp_path, monkeypatch):
+    """output/extracted holds Claude's replies from the run on 30 September 2026."""
+    import shutil
+    import run
+
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    shutil.copytree(ROOT / "output" / "extracted", tmp_path / "extracted")
+    result = run.main(["--out", str(tmp_path)])        # no key needed: every result is reused
+    assert result["stats"]["from_saved"] == 20
+    ev = result["evaluation"]
+    assert ev["header_fields_checked"] + ev["line_item_fields_checked"] == 668
+    assert ev["all_fields_accuracy_pct"] == 100.0
+    assert ev["planted_issues_found"] == 6 and ev["false_flags"] == []
+
+
 def test_evaluation_reports_a_wrong_field():
     records = [{"file": f, "data": fields(r)} for f, r in TRUTH.items()]
     records[0]["data"]["total"] = 1.0

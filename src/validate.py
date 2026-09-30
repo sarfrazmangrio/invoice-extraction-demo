@@ -57,7 +57,8 @@ def validate_invoice(file: str, data: dict) -> list[dict]:
     issues = []
     for field in REQUIRED:
         if _blank(data.get(field)):
-            issues.append(_issue(file, data, "missing_required_field", f"{field} is blank or missing", found=field))
+            issues.append(_issue(file, data, "missing_required_field", f"{field} is blank or missing",
+                                 expected="a value", found="blank"))
 
     inv_date, due_date = _parse_date(data.get("invoice_date")), _parse_date(data.get("due_date"))
     for field, parsed in (("invoice_date", inv_date), ("due_date", due_date)):
