@@ -1,0 +1,53 @@
+{
+  "data": {
+    "vendor_name": "HARBOR LINE FREIGHT",
+    "invoice_number": "HLF-88241",
+    "invoice_date": "2026-04-08",
+    "due_date": "2026-05-08",
+    "currency": "USD",
+    "customer_name": "Greenleaf Pharmacy",
+    "line_items": [
+      {
+        "description": "Pallet storage (pallet-weeks)",
+        "quantity": 2,
+        "unit_price": 14.5,
+        "amount": 29.0
+      },
+      {
+        "description": "Detention time (hours)",
+        "quantity": 6.5,
+        "unit_price": 85.0,
+        "amount": 552.5
+      },
+      {
+        "description": "Fuel surcharge",
+        "quantity": 1,
+        "unit_price": 92.4,
+        "amount": 92.4
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      },
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 4.5,
+        "unit_price": 38.0,
+        "amount": 171.0
+      }
+    ],
+    "subtotal": 1019.9,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 1019.9
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2956,
+    "output_tokens": 292
+  },
+  "cost_usd": 0.004416,
+  "seconds": 3.17
+}

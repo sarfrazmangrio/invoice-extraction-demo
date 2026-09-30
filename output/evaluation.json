@@ -1,0 +1,46 @@
+{
+  "evaluation": {
+    "invoices_in_truth": 20,
+    "invoices_extracted": 20,
+    "extraction_failures": [],
+    "header_accuracy_pct": 100.0,
+    "header_fields_checked": 200,
+    "line_item_accuracy_pct": 100.0,
+    "line_item_fields_checked": 468,
+    "all_fields_accuracy_pct": 100.0,
+    "invoices_fully_correct": 20,
+    "by_field": {
+      "vendor_name": 100.0,
+      "invoice_number": 100.0,
+      "invoice_date": 100.0,
+      "due_date": 100.0,
+      "currency": 100.0,
+      "customer_name": 100.0,
+      "subtotal": 100.0,
+      "tax_rate_percent": 100.0,
+      "tax_amount": 100.0,
+      "total": 100.0,
+      "line description": 100.0,
+      "line quantity": 100.0,
+      "line unit_price": 100.0,
+      "line amount": 100.0
+    },
+    "planted_issues": 6,
+    "planted_issues_found": 6,
+    "missed_issues": [],
+    "false_flags": [],
+    "mismatches": []
+  },
+  "run": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 61372,
+    "output_tokens": 5917,
+    "cost_usd": 0.090957,
+    "api_seconds": 95.58,
+    "from_saved": 0,
+    "wall_seconds": 95.7,
+    "files": 20,
+    "extracted": 20,
+    "failed": 0
+  }
+}

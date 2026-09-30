@@ -1,0 +1,59 @@
+{
+  "data": {
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0414",
+    "invoice_date": "2026-03-03",
+    "due_date": "2026-04-02",
+    "currency": "USD",
+    "customer_name": "Summit Legal Partners",
+    "line_items": [
+      {
+        "description": "Stapler, heavy duty",
+        "quantity": 12,
+        "unit_price": 24.5,
+        "amount": 294.0
+      },
+      {
+        "description": "Sticky notes 3x3, yellow, 12 pack",
+        "quantity": 6,
+        "unit_price": 9.75,
+        "amount": 58.5
+      },
+      {
+        "description": "Highlighters, 6 colors",
+        "quantity": 4,
+        "unit_price": 6.8,
+        "amount": 27.2
+      },
+      {
+        "description": "Hand sanitizer, 1 L",
+        "quantity": 5,
+        "unit_price": 7.9,
+        "amount": 39.5
+      },
+      {
+        "description": "Printing calculator",
+        "quantity": 12,
+        "unit_price": 64.95,
+        "amount": 779.4
+      },
+      {
+        "description": "Envelopes #10, box of 500",
+        "quantity": 12,
+        "unit_price": 27.9,
+        "amount": 334.8
+      }
+    ],
+    "subtotal": 1553.4,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 128.16,
+    "total": 1681.56
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2986,
+    "output_tokens": 285
+  },
+  "cost_usd": 0.004411,
+  "seconds": 4.17
+}

@@ -13,7 +13,7 @@ from openpyxl.utils import get_column_letter
 from validate import RULES
 
 HEADER_FILL = PatternFill("solid", fgColor="1F4E79")
-HEADER_FONT = Font(bold=True, color="FFFFFF")
+HEADER_FONT = Font(name="Calibri", bold=True, color="FFFFFF")   # named, so LibreOffice shows it as Excel does
 OK_FILL = PatternFill("solid", fgColor="E2EFDA")
 REVIEW_FILL = PatternFill("solid", fgColor="FCE4D6")
 MONEY = "#,##0.00"
@@ -90,7 +90,7 @@ def write_workbook(path: Path, records: list[dict], issues: list[dict], failures
     ws.append([])
     ws.append(["Issues by rule", "Count"])
     for cell in ws[ws.max_row]:
-        cell.font = Font(bold=True)
+        cell.font = Font(name="Calibri", bold=True)
     rule_counts = Counter(i["rule"] for i in issues)
     for rule, label in RULES.items():
         if rule_counts[rule]:

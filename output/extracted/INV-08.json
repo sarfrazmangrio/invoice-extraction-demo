@@ -1,0 +1,47 @@
+{
+  "data": {
+    "vendor_name": "HARBOR LINE FREIGHT",
+    "invoice_number": "HLF-88220",
+    "invoice_date": "2026-03-12",
+    "due_date": "2026-04-11",
+    "currency": "USD",
+    "customer_name": "Nova Home Electronics",
+    "line_items": [
+      {
+        "description": "Pallet storage (pallet-weeks)",
+        "quantity": 12,
+        "unit_price": 14.5,
+        "amount": 174.0
+      },
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      },
+      {
+        "description": "Inspection exam fee",
+        "quantity": 1,
+        "unit_price": 260.0,
+        "amount": 260.0
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      }
+    ],
+    "subtotal": 647.0,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 647.0
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2926,
+    "output_tokens": 206
+  },
+  "cost_usd": 0.003956,
+  "seconds": 6.74
+}

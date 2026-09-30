@@ -1,0 +1,41 @@
+{
+  "data": {
+    "vendor_name": "KESTREL PACKAGING LTD.",
+    "invoice_number": "KPL/INV/1188",
+    "invoice_date": "2026-03-28",
+    "due_date": "2026-03-14",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 200,
+        "unit_price": 310.0,
+        "amount": 62000.0
+      },
+      {
+        "description": "Printed mailer bags 12x16, 100",
+        "quantity": 8,
+        "unit_price": 2300.0,
+        "amount": 18400.0
+      },
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 4,
+        "unit_price": 2150.0,
+        "amount": 8600.0
+      }
+    ],
+    "subtotal": 89000.0,
+    "tax_rate_percent": 18,
+    "tax_amount": 16020.0,
+    "total": 105020.0
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2996,
+    "output_tokens": 255
+  },
+  "cost_usd": 0.004271,
+  "seconds": 3.34
+}

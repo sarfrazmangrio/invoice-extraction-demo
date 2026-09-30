@@ -1,0 +1,47 @@
+{
+  "data": {
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0032",
+    "invoice_date": "2026-03-20",
+    "due_date": "2026-04-04",
+    "currency": "PKR",
+    "customer_name": "Atlas Garments",
+    "line_items": [
+      {
+        "description": "Envelope printing, 500 pcs",
+        "quantity": 1,
+        "unit_price": 4750,
+        "amount": 4750
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 3,
+        "unit_price": 4200,
+        "amount": 12600
+      },
+      {
+        "description": "A2 posters, glossy, 50 pcs",
+        "quantity": 1,
+        "unit_price": 5250,
+        "amount": 5250
+      },
+      {
+        "description": "A5 flyers, 130 gsm, 2,000 pcs",
+        "quantity": 2,
+        "unit_price": 14000,
+        "amount": 28000
+      }
+    ],
+    "subtotal": 50600,
+    "tax_rate_percent": 16,
+    "tax_amount": 8096,
+    "total": 58696
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2990,
+    "output_tokens": 279
+  },
+  "cost_usd": 0.004385,
+  "seconds": 3.44
+}

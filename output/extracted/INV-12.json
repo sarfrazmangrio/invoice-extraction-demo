@@ -1,0 +1,41 @@
+{
+  "data": {
+    "vendor_name": "HARBOR LINE FREIGHT",
+    "invoice_number": null,
+    "invoice_date": "2026-03-23",
+    "due_date": "2026-04-22",
+    "currency": "USD",
+    "customer_name": "Pacific Tile Imports",
+    "line_items": [
+      {
+        "description": "Detention time (hours)",
+        "quantity": 2,
+        "unit_price": 85.0,
+        "amount": 170.0
+      },
+      {
+        "description": "Chassis rental (days)",
+        "quantity": 4.5,
+        "unit_price": 38.0,
+        "amount": 171.0
+      },
+      {
+        "description": "Customs clearance filing",
+        "quantity": 1,
+        "unit_price": 175.0,
+        "amount": 175.0
+      }
+    ],
+    "subtotal": 516.0,
+    "tax_rate_percent": null,
+    "tax_amount": null,
+    "total": 516.0
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2904,
+    "output_tokens": 175
+  },
+  "cost_usd": 0.003779,
+  "seconds": 2.39
+}

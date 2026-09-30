@@ -52,7 +52,7 @@ With real client invoices there is no ground truth. The equivalent is to check 1
 
 ## 5. Cost
 
-Claude Haiku 4.5 costs $1 per million input tokens and $5 per million output tokens. A PDF page uses roughly 1,500 to 3,000 text tokens plus image tokens. `run_stats.json` records the tokens and cost of every call, including replies that were rejected (they are still billed), and how many results were reused from an earlier run. For large volumes the Batch API halves the price.
+Claude Haiku 4.5 costs $1 per million input tokens and $5 per million output tokens. A PDF page uses roughly 1,500 to 3,000 text tokens plus image tokens. In the test run, each one-page invoice used 2,750 to 3,072 input tokens (everything sent, prompt included) and 175 to 313 output tokens, which is $0.0038 to $0.0046 per invoice. The two-page, 30-line invoice used 5,129 input and 1,001 output tokens, about $0.010. `run_stats.json` records the tokens and cost of every call, including replies that were rejected (they are still billed), and how many results were reused from an earlier run. For large volumes the Batch API halves the price.
 
 ## 6. Adapting it for a client
 

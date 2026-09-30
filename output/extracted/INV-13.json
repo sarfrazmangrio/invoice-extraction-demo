@@ -1,0 +1,65 @@
+{
+  "data": {
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0415",
+    "invoice_date": "2026-03-25",
+    "due_date": "2026-04-24",
+    "currency": "USD",
+    "customer_name": "Summit Legal Partners",
+    "line_items": [
+      {
+        "description": "Desk fan, 12 in",
+        "quantity": 10,
+        "unit_price": 29.99,
+        "amount": 299.9
+      },
+      {
+        "description": "Label maker tape, 2 pack",
+        "quantity": 1,
+        "unit_price": 16.8,
+        "amount": 16.8
+      },
+      {
+        "description": "Wireless keyboard",
+        "quantity": 2,
+        "unit_price": 49.0,
+        "amount": 98.0
+      },
+      {
+        "description": "Sticky notes 3x3, yellow, 12 pack",
+        "quantity": 10,
+        "unit_price": 9.75,
+        "amount": 97.5
+      },
+      {
+        "description": "Correction tape, 10 pack",
+        "quantity": 2,
+        "unit_price": 8.6,
+        "amount": 17.2
+      },
+      {
+        "description": "Tissue boxes, 12 pack",
+        "quantity": 1,
+        "unit_price": 18.6,
+        "amount": 18.6
+      },
+      {
+        "description": "Whiteboard markers, 8 pack",
+        "quantity": 6,
+        "unit_price": 11.4,
+        "amount": 68.4
+      }
+    ],
+    "subtotal": 616.4,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 50.85,
+    "total": 667.25
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 3003,
+    "output_tokens": 313
+  },
+  "cost_usd": 0.004568,
+  "seconds": 3.48
+}

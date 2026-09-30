@@ -1,0 +1,53 @@
+{
+  "data": {
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0412",
+    "invoice_date": "2026-02-17",
+    "due_date": "2026-03-19",
+    "currency": "USD",
+    "customer_name": "Brightside Dental Group",
+    "line_items": [
+      {
+        "description": "File folders, letter, 100",
+        "quantity": 12,
+        "unit_price": 15.6,
+        "amount": 187.2
+      },
+      {
+        "description": "Highlighters, 6 colors",
+        "quantity": 12,
+        "unit_price": 6.8,
+        "amount": 81.6
+      },
+      {
+        "description": "Whiteboard markers, 8 pack",
+        "quantity": 4,
+        "unit_price": 11.4,
+        "amount": 45.6
+      },
+      {
+        "description": "Envelopes #10, box of 500",
+        "quantity": 1,
+        "unit_price": 27.9,
+        "amount": 27.9
+      },
+      {
+        "description": "Desk fan, 12 in",
+        "quantity": 2,
+        "unit_price": 29.99,
+        "amount": 59.98
+      }
+    ],
+    "subtotal": 402.28,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 33.19,
+    "total": 435.47
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2965,
+    "output_tokens": 257
+  },
+  "cost_usd": 0.00425,
+  "seconds": 8.57
+}
