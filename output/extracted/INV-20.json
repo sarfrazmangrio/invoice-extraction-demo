@@ -1,0 +1,59 @@
+{
+  "data": {
+    "vendor_name": "KESTREL PACKAGING LTD.",
+    "invoice_number": "KPL/INV/1191",
+    "invoice_date": "2026-04-14",
+    "due_date": "2026-04-29",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 5,
+        "unit_price": 2150.0,
+        "amount": 10750.0
+      },
+      {
+        "description": "Air pillows, bag of 500",
+        "quantity": 4,
+        "unit_price": 1650.0,
+        "amount": 6600.0
+      },
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 200,
+        "unit_price": 310.0,
+        "amount": 62000.0
+      },
+      {
+        "description": "Edge protectors, 50",
+        "quantity": 8,
+        "unit_price": 1275.0,
+        "amount": 10200.0
+      },
+      {
+        "description": "Bubble wrap roll 1 m x 50 m",
+        "quantity": 8,
+        "unit_price": 2450.0,
+        "amount": 19600.0
+      },
+      {
+        "description": "Shipping labels 4x6, 500",
+        "quantity": 8,
+        "unit_price": 1420.0,
+        "amount": 11360.0
+      }
+    ],
+    "subtotal": 120510.0,
+    "tax_rate_percent": 18,
+    "tax_amount": 21691.8,
+    "total": 142201.8
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 3072,
+    "output_tokens": 313
+  },
+  "cost_usd": 0.004637,
+  "seconds": 4.16
+}

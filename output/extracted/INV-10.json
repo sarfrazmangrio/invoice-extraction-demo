@@ -1,0 +1,47 @@
+{
+  "data": {
+    "vendor_name": "KESTREL PACKAGING LTD.",
+    "invoice_number": "KPL/INV/1190",
+    "invoice_date": "2026-03-18",
+    "due_date": "2026-04-17",
+    "currency": "PKR",
+    "customer_name": "Atlas Garments",
+    "line_items": [
+      {
+        "description": "Pallet wrap, black",
+        "quantity": 2,
+        "unit_price": 2150.0,
+        "amount": 4300.0
+      },
+      {
+        "description": "Stretch film 18 in x 1500 ft",
+        "quantity": 5,
+        "unit_price": 1950.0,
+        "amount": 9750.0
+      },
+      {
+        "description": "Kraft paper roll, 36 in",
+        "quantity": 12,
+        "unit_price": 3200.0,
+        "amount": 38400.0
+      },
+      {
+        "description": "Bubble wrap roll 1 m x 50 m",
+        "quantity": 10,
+        "unit_price": 2450.0,
+        "amount": 24500.0
+      }
+    ],
+    "subtotal": 76950.0,
+    "tax_rate_percent": 18,
+    "tax_amount": 13851.0,
+    "total": 90801.0
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2750,
+    "output_tokens": 245
+  },
+  "cost_usd": 0.003975,
+  "seconds": 3.33
+}

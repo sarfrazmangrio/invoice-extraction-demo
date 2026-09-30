@@ -1,0 +1,47 @@
+{
+  "data": {
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0416",
+    "invoice_date": "2026-04-06",
+    "due_date": "2026-05-06",
+    "currency": "USD",
+    "customer_name": "Summit Legal Partners",
+    "line_items": [
+      {
+        "description": "Laminating pouches, 100",
+        "quantity": 4,
+        "unit_price": 21.3,
+        "amount": 85.2
+      },
+      {
+        "description": "Stapler, heavy duty",
+        "quantity": 12,
+        "unit_price": 24.5,
+        "amount": 294.0
+      },
+      {
+        "description": "Ballpoint pens, box of 50",
+        "quantity": 1,
+        "unit_price": 12.99,
+        "amount": 12.99
+      },
+      {
+        "description": "Hand sanitizer, 1 L",
+        "quantity": 3,
+        "unit_price": 7.9,
+        "amount": 23.7
+      }
+    ],
+    "subtotal": 415.89,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 34.31,
+    "total": 450.2
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2938,
+    "output_tokens": 221
+  },
+  "cost_usd": 0.004043,
+  "seconds": 2.84
+}

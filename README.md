@@ -6,9 +6,26 @@ Turns a folder of invoice PDFs, including scanned ones, into one Excel workbook 
 ![Claude](https://img.shields.io/badge/LLM-Claude%20Haiku%204.5-orange)
 ![Excel](https://img.shields.io/badge/Output-Excel-green)
 
+![Test run results: 668 of 668 fields correct, 6 of 6 planted problems caught, about $0.0045 per invoice](images/results.png)
+
 ## Results on the test set
 
-This section is filled in after the first real run: field accuracy, planted problems caught, cost per invoice and run time. The full scoring will be in `output/evaluation.md`.
+One run on 30 September 2026 with Claude Haiku 4.5 (`claude-haiku-4-5-20251001`). The full report is [output/evaluation.md](output/evaluation.md) and the workbook is [output/invoices_extracted.xlsx](output/invoices_extracted.xlsx).
+
+| Measure | Result |
+|---|---|
+| Invoices extracted | 20 of 20, none failed |
+| Fields correct | 668 of 668 (200 header fields, 468 line-item fields) |
+| Invoices with every field correct | 20 of 20 |
+| Planted problems caught | 6 of 6, no false alarms |
+| Cost | $0.091 for all 20 (61,372 input and 5,917 output tokens), about $0.0045 per invoice |
+| Time | 96 seconds of API calls, about 5 seconds per invoice |
+
+- The two scanned invoices (INV-10, INV-19) and the two-page, 30-line invoice (INV-03) had every field right.
+- INV-12's blank invoice number came back empty instead of guessed, and the required-field check flagged it.
+- Text is compared without regard to capital letters: two vendors print their names in capitals, and Claude copied them as printed.
+
+What this shows: the pipeline runs end to end, and each check catches the problem it was built for. What it does not show: accuracy on real invoices. The test invoices are synthetic and cleanly laid out, and the scans were simulated, so these numbers don't carry over. For client work, accuracy is measured first on a hand-checked sample of the client's own invoices.
 
 ## What it does
 
@@ -24,6 +41,8 @@ This section is filled in after the first real run: field accuracy, planted prob
    - no vendor sends the same invoice number twice
 3. **Writes one Excel workbook** with four sheets: Summary, Invoices (each marked OK or Needs review), Line items, and Issues (what failed, the expected value and the value found).
 4. **Scores itself.** Because the test invoices were generated from known data, every extracted field is compared with the true value, and every flag with the problems that were planted.
+
+![The Invoices and Summary sheets of the workbook from the test run](images/workbook.png)
 
 ## The test set
 
@@ -110,7 +129,8 @@ data/
   invoices/               # the 20 test PDFs
   ground_truth.json       # the true value of every field
 tests/test_pipeline.py    # 20 tests; no API key needed
-output/                   # results of the real run
+output/                   # results of the real run on 30 September 2026
+images/                   # the two images on this page
 ```
 
 Run the tests with `pip install -r requirements-dev.txt` then `python -m pytest`.

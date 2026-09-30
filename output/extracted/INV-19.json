@@ -1,0 +1,53 @@
+{
+  "data": {
+    "vendor_name": "Saffron Print Studio",
+    "invoice_number": "SPS-2026-0033",
+    "invoice_date": "2026-03-30",
+    "due_date": "2026-04-14",
+    "currency": "PKR",
+    "customer_name": "Crescent Foods",
+    "line_items": [
+      {
+        "description": "Envelope printing, 500 pcs",
+        "quantity": 1,
+        "unit_price": 4750,
+        "amount": 4750
+      },
+      {
+        "description": "Letterheads, 100 gsm, 1,000 pcs",
+        "quantity": 1,
+        "unit_price": 7500,
+        "amount": 7500
+      },
+      {
+        "description": "Tri-fold brochures, 1,000 pcs",
+        "quantity": 3,
+        "unit_price": 18500,
+        "amount": 55500
+      },
+      {
+        "description": "Vinyl sticker labels, 1,000 pcs",
+        "quantity": 2,
+        "unit_price": 4200,
+        "amount": 8400
+      },
+      {
+        "description": "A5 flyers, 130 gsm, 2,000 pcs",
+        "quantity": 3,
+        "unit_price": 14000,
+        "amount": 42000
+      }
+    ],
+    "subtotal": 118150,
+    "tax_rate_percent": 16,
+    "tax_amount": 18904,
+    "total": 137054
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 2750,
+    "output_tokens": 271
+  },
+  "cost_usd": 0.004105,
+  "seconds": 3.31
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "vendor_name": "KESTREL PACKAGING LTD.",
+    "invoice_number": "KPL/INV/1187",
+    "invoice_date": "2026-02-13",
+    "due_date": "2026-02-28",
+    "currency": "PKR",
+    "customer_name": "Meridian Retail (Pvt.) Ltd.",
+    "line_items": [
+      {
+        "description": "Stretch film 18 in x 1500 ft",
+        "quantity": 12,
+        "unit_price": 1950.0,
+        "amount": 23400.0
+      },
+      {
+        "description": "Corrugated box 18x14x12 in, 5-ply",
+        "quantity": 250,
+        "unit_price": 310.0,
+        "amount": 77500.0
+      },
+      {
+        "description": "Printed mailer bags 12x16, 100",
+        "quantity": 12,
+        "unit_price": 2300.0,
+        "amount": 27600.0
+      },
+      {
+        "description": "Corrugated box 12x10x8 in, 3-ply",
+        "quantity": 200,
+        "unit_price": 145.0,
+        "amount": 29000.0
+      }
+    ],
+    "subtotal": 157500.0,
+    "tax_rate_percent": 18,
+    "tax_amount": 28350.0,
+    "total": 185850.0
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 3045,
+    "output_tokens": 273
+  },
+  "cost_usd": 0.00441,
+  "seconds": 6.18
+}

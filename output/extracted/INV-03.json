@@ -1,0 +1,203 @@
+{
+  "data": {
+    "vendor_name": "Orchid Office Supply Co.",
+    "invoice_number": "OOS-2026-0413",
+    "invoice_date": "2026-02-24",
+    "due_date": "2026-03-26",
+    "currency": "USD",
+    "customer_name": "Brightside Dental Group",
+    "line_items": [
+      {
+        "description": "Wireless keyboard",
+        "quantity": 5,
+        "unit_price": 49.0,
+        "amount": 245.0
+      },
+      {
+        "description": "Paper shredder, cross-cut",
+        "quantity": 1,
+        "unit_price": 149.0,
+        "amount": 149.0
+      },
+      {
+        "description": "Laminating pouches, 100",
+        "quantity": 5,
+        "unit_price": 21.3,
+        "amount": 106.5
+      },
+      {
+        "description": "Tissue boxes, 12 pack",
+        "quantity": 5,
+        "unit_price": 18.6,
+        "amount": 93.0
+      },
+      {
+        "description": "Trash bags 30 gal, 50",
+        "quantity": 5,
+        "unit_price": 13.45,
+        "amount": 67.25
+      },
+      {
+        "description": "Label maker tape, 2 pack",
+        "quantity": 3,
+        "unit_price": 16.8,
+        "amount": 50.4
+      },
+      {
+        "description": "Index dividers, 8 tab",
+        "quantity": 5,
+        "unit_price": 5.1,
+        "amount": 25.5
+      },
+      {
+        "description": "Correction tape, 10 pack",
+        "quantity": 5,
+        "unit_price": 8.6,
+        "amount": 43.0
+      },
+      {
+        "description": "Highlighters, 6 colors",
+        "quantity": 1,
+        "unit_price": 6.8,
+        "amount": 6.8
+      },
+      {
+        "description": "Stapler, heavy duty",
+        "quantity": 2,
+        "unit_price": 24.5,
+        "amount": 49.0
+      },
+      {
+        "description": "USB-C hub, 7-port",
+        "quantity": 2,
+        "unit_price": 42.0,
+        "amount": 84.0
+      },
+      {
+        "description": "Ring binders 2 in, 4 pack",
+        "quantity": 1,
+        "unit_price": 22.4,
+        "amount": 22.4
+      },
+      {
+        "description": "Binder clips, assorted 60",
+        "quantity": 1,
+        "unit_price": 7.25,
+        "amount": 7.25
+      },
+      {
+        "description": "Printing calculator",
+        "quantity": 5,
+        "unit_price": 64.95,
+        "amount": 324.75
+      },
+      {
+        "description": "Ergonomic wireless mouse",
+        "quantity": 5,
+        "unit_price": 34.99,
+        "amount": 174.95
+      },
+      {
+        "description": "LED desk lamp",
+        "quantity": 2,
+        "unit_price": 45.0,
+        "amount": 90.0
+      },
+      {
+        "description": "Envelopes #10, box of 500",
+        "quantity": 5,
+        "unit_price": 27.9,
+        "amount": 139.5
+      },
+      {
+        "description": "First aid kit, office",
+        "quantity": 2,
+        "unit_price": 36.75,
+        "amount": 73.5
+      },
+      {
+        "description": "Clipboards, 5 pack",
+        "quantity": 1,
+        "unit_price": 14.25,
+        "amount": 14.25
+      },
+      {
+        "description": "Hand sanitizer, 1 L",
+        "quantity": 5,
+        "unit_price": 7.9,
+        "amount": 39.5
+      },
+      {
+        "description": "Desk fan, 12 in",
+        "quantity": 5,
+        "unit_price": 29.99,
+        "amount": 149.95
+      },
+      {
+        "description": "Cable ties, 100 pack",
+        "quantity": 3,
+        "unit_price": 4.99,
+        "amount": 14.97
+      },
+      {
+        "description": "Sticky notes 3x3, yellow, 12 pack",
+        "quantity": 5,
+        "unit_price": 9.75,
+        "amount": 48.75
+      },
+      {
+        "description": "A4 copy paper, 500 sheets",
+        "quantity": 3,
+        "unit_price": 6.49,
+        "amount": 19.47
+      },
+      {
+        "description": "Desk organizer, mesh",
+        "quantity": 5,
+        "unit_price": 18.2,
+        "amount": 91.0
+      },
+      {
+        "description": "A3 printer paper, 250 sheets",
+        "quantity": 5,
+        "unit_price": 19.99,
+        "amount": 99.95
+      },
+      {
+        "description": "Ballpoint pens, box of 50",
+        "quantity": 5,
+        "unit_price": 12.99,
+        "amount": 64.95
+      },
+      {
+        "description": "File folders, letter, 100",
+        "quantity": 2,
+        "unit_price": 15.6,
+        "amount": 31.2
+      },
+      {
+        "description": "Coffee filters, 500",
+        "quantity": 3,
+        "unit_price": 9.3,
+        "amount": 27.9
+      },
+      {
+        "description": "Black toner cartridge 26A",
+        "quantity": 3,
+        "unit_price": 89.0,
+        "amount": 267.0
+      }
+    ],
+    "subtotal": 2620.69,
+    "tax_rate_percent": 8.25,
+    "tax_amount": 216.21,
+    "total": 2836.9
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "usage": {
+    "input_tokens": 5129,
+    "output_tokens": 1001
+  },
+  "cost_usd": 0.010134,
+  "seconds": 11.5
+}
